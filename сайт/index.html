@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+		<meta charset="UTF-8">
+	<title>сайт</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+				<header>
+					<h1>Trade_Game<a href="" 
+						class="nav-logo">
+									<img src="волк.png" alt="">
+									</a></h1>
+					<nav class="top-menu">
+		<a href="#">
+			Главная
+			</a>
+		<a href="#">
+			Игры
+			</a>
+		<a href="#">
+			Ваши покупки
+			</a>
+		<a href="#">
+			О нас
+			</a>
+		
+		<div class="animation home"></div>
+					</nav>
+
+					<div id="sidebar" title="кликни дважды">
+						<div class="toggle" onclick="oprent()" ondblclick="sfd()">
+							<!-- кнопка -->
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<ul>
+							<!--список меню-->
+							<li>Популярные Игры</li>
+							<li><a href="#">world of tanks</a> </li>
+							<li><a href="#">cs go</a> </li>
+							<li><a href="#">pubg mobail</a> </li>
+							<li><a href="#">stalker2</a></li>
+						</ul>
+					</div>
+					<div class="obzor">
+						<div class="w-of-t">
+							<img src="танки.jpg" alt="foto">
+							<div class="tank">
+								Минимальные системные требования-
+								Операционная система: Windows 7 или выше.
+								Процессор (CPU): c двумя и более физическими ядрами, поддерживающий технологию SSE2.
+								Оперативная память (RAM):  2 ГБ.
+								Видеоадаптер: NVIDIA GeForce 8600, ATI Radeon HD 4550.
+								Свободное место на жёстком диске: ~55 ГБ.
+								Скорость интернет-соединения: 256 Кбит/с.
+								<button>купить</button>
+						</div>
+					</div>
+					<div class="cs_go">
+						<img src="кс.jpg" alt="foto">
+						<div class="kill">
+												
+OS: Windows 7/8/10
+CPU: Intel Core i3-2100 или AMD FX-4100 и лучше
+RAM: 4 Гб
+GPU: Nvidia GeForce GT 730 или AMD Radeon R7 240 и лучше
+HDD: 20 Гб
+						<button>купить</button>
+						</div>
+					</div>
+					<div class="pubg">
+						<img src="pubg.jpg" alt="foto">
+						<div class="pubgM">
+							МИНИМАЛЬНЫЕ:
+							ОС: Windows 7/8/10
+							Процессор: Intel® Core™ 2 Duo E6600 or AMD Phenom™ X3 8750 processor or better
+							Оперативная память: 4 GB ОЗУ
+							Видеокарта: GTX 560 and up
+							Сеть: Широкополосное подключение к интернету
+							Место на диске: 3 GB
+							<button>купить</button>
+						</div>
+					</div>
+					<div class="stalker">
+						<img src="сталкер.jpg" alt="">
+						<div class="сталкер">
+							Локализация: полностью на русском
+
+Минимальные требования к ПК:
+ОС: Windows 10
+Процессор: AMD Ryzen 5 1600X/Intel Core i5-7600K
+Память: 8 Гб
+Видео: AMD Radeon RX 580 8 Гб/NVIDIA GeForce GTX 1060 6 Гб
+HDD: 150 Гб
+					<button>купить</button>	
+						</div>
+					</div>
+					</div>
+					<script>
+						function oprent() {
+							var e = 0;
+					var x = document.getElementById('sidebar');
+					x.style.left = e + "px";
+				}
+				function sfd() {
+							var e = -250;
+					var x = document.getElementById('sidebar');
+					x.style.left = e + "px";
+				}
+					</script>
+				</header>
+</body>
+</html>

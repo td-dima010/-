@@ -1,0 +1,192 @@
+*{
+				padding: 0px;
+				margin: 0px;
+}
+body{
+	background-image: url("игры.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+h1{
+	text-align: center;
+	margin: 20px;
+	font-size: 30px;
+	color: rgb(88, 41, 8);
+	background: -webkit-linear-gradient(rgb(194, 76, 76), rgb(8, 8, 122));
+	font-family: cursive;
+	text-shadow: 4px 4px 4px rgb(59, 56, 56);
+}
+img{
+	width: 5%;
+	padding-top: 7px;
+
+}
+nav{
+	margin: 20px auto 0;
+	position: relative;
+	width: 60%;
+	height: 100%px;
+	background: -webkit-linear-gradient(rgb(203, 223, 29),rgb(197, 134, 17),rgb(192, 19, 19));
+	border-radius: 15px solid black;
+	box-shadow: 3px 3px 4px #000;
+	text-align: center;
+	
+}
+nav a{
+	line-height: 20px;
+	height: 100%;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	cursor: pointer;
+	color: rgb(33, 17, 104);
+	padding: 15px 25px 10px 15px;
+	text-transform: uppercase;
+}
+.animation{
+	position: absolute;
+	width: 100px;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+nav a:hover{
+	background: rgb(116, 10, 10);
+	font-size: 25px;
+	border-bottom: 2px double rgb(6, 7, 6);
+}
+#sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: #57626f;
+    border-right: 5px solid rgb(10, 138, 110);
+    left: -250px;
+    transition: all 500ms;
+	z-index: 2;
+	
+}
+
+/* стили первого елемента в списке */
+#sidebar ul li:first-child{
+    text-align: center;
+    color: rgb(192, 25, 192);
+    text-shadow: 4px 4px 1px rgb(70, 7, 70);
+    font-size: 1.85em;
+    cursor: pointer;
+    list-style: none;
+    padding: 25px 10px 10px 10px;
+}
+/* стили всех, кроме первого */
+#sidebar ul li:not(first-child){
+    width: 90%;
+    margin-left: 8%;
+    list-style: none;
+    font-size: 1.1em;
+    padding: 10px 10px;
+}
+#sidebar ul li a{
+    color: yellow;
+    text-decoration: none;
+}
+/* стилизация ссылок */
+#sidebar ul li a:hover{
+color: #0a520da2;
+border-bottom: 3px solid rgb(47, 221, 85);
+border-left: 2px solid rgb(33, 185, 19);
+}
+
+#sidebar .toggle{
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    background: #1987d1;
+    padding: 8px;
+    border-radius: 12px;
+    cursor: help;
+}
+/* стили для кнопки */
+#sidebar .toggle span{
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: rgb(99, 85, 85);
+    margin: 2px;
+}
+#sidebar .toggle span:hover{
+    background: chocolate;
+    }
+    #sidebar .toggle:hover{
+        background: #4d5d6e;
+    }
+	.obzor img{
+		border: 2px solid rgb(190, 231, 39);
+		width: 300px;
+		height: 300px;
+		position: relative;
+		top: 20px;
+		left: 15px;
+		z-index: 1;
+	}
+	.w-of-t{
+		position: relative;
+		float: right;
+		padding-right: 18px;
+		position: relative;
+	}
+	.tank{
+		width: 300px;
+		position: relative;
+		top: 16px;
+		left: 15px;
+		background: #c8e05e;
+		border: 2px solid #1987d1;
+		
+	}
+	.cs_go{
+		position: relative;
+		float: right;
+		padding-right: 10px;
+	}
+	.kill{
+		width: 300px;
+		position: relative;
+		top: 16px;
+		left: 15px;
+		background: #c8e05e;
+		border: 2px solid #1987d1;
+	}
+	.pubg{
+		position: relative;
+		float: right;
+		padding-right: 10px;
+	}
+	.pubgM{
+		width: 300px;
+		position: relative;
+		top: 16px;
+		left: 15px;
+		background: #c8e05e;
+		border: 2px solid #1987d1;
+	}
+	.stalker{
+		position: relative;
+		float: right;
+		padding-right: 8px;
+	}
+	.сталкер{
+		width: 300px;
+		position: relative;
+		top: 16px;
+		left: 15px;
+		background: #c8e05e;
+		border: 2px solid #1987d1;
+	}
+	button{
+		justify-content: center;
+		width: 150px;
+		background-color: #1987d1;
+	}
+	
